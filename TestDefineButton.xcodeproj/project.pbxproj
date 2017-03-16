@@ -17,6 +17,8 @@
 		691A54B71E651F5D00065D04 /* TestDefineButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 691A54B61E651F5D00065D04 /* TestDefineButtonUITests.m */; };
 		691A54C71E651F9A00065D04 /* ALMyPageButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 691A54C61E651F9A00065D04 /* ALMyPageButtonView.m */; };
 		691A54CD1E65202100065D04 /* ALMyPageBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 691A54CC1E65202100065D04 /* ALMyPageBarButton.m */; };
+		694FAC0B1E7A725E0045ED58 /* ALCommentButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 694FAC0A1E7A725E0045ED58 /* ALCommentButton.m */; };
+		694FAC0E1E7A74C90045ED58 /* ALCommentBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 694FAC0D1E7A74C90045ED58 /* ALCommentBottomView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,10 @@
 		691A54C61E651F9A00065D04 /* ALMyPageButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALMyPageButtonView.m; sourceTree = "<group>"; };
 		691A54CB1E65202100065D04 /* ALMyPageBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALMyPageBarButton.h; sourceTree = "<group>"; };
 		691A54CC1E65202100065D04 /* ALMyPageBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALMyPageBarButton.m; sourceTree = "<group>"; };
+		694FAC091E7A725E0045ED58 /* ALCommentButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALCommentButton.h; sourceTree = "<group>"; };
+		694FAC0A1E7A725E0045ED58 /* ALCommentButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALCommentButton.m; sourceTree = "<group>"; };
+		694FAC0C1E7A74C90045ED58 /* ALCommentBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALCommentBottomView.h; sourceTree = "<group>"; };
+		694FAC0D1E7A74C90045ED58 /* ALCommentBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALCommentBottomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +113,8 @@
 		691A54901E651F5D00065D04 /* TestDefineButton */ = {
 			isa = PBXGroup;
 			children = (
-				691A54C41E651F8F00065D04 /* defineView */,
+				694FAC081E7A724A0045ED58 /* KokyCommentButton */,
+				691A54C41E651F8F00065D04 /* myPageBarButton */,
 				691A54941E651F5D00065D04 /* AppDelegate.h */,
 				691A54951E651F5D00065D04 /* AppDelegate.m */,
 				691A54971E651F5D00065D04 /* ViewController.h */,
@@ -147,7 +154,7 @@
 			path = TestDefineButtonUITests;
 			sourceTree = "<group>";
 		};
-		691A54C41E651F8F00065D04 /* defineView */ = {
+		691A54C41E651F8F00065D04 /* myPageBarButton */ = {
 			isa = PBXGroup;
 			children = (
 				691A54CB1E65202100065D04 /* ALMyPageBarButton.h */,
@@ -155,7 +162,19 @@
 				691A54C51E651F9A00065D04 /* ALMyPageButtonView.h */,
 				691A54C61E651F9A00065D04 /* ALMyPageButtonView.m */,
 			);
+			name = myPageBarButton;
 			path = defineView;
+			sourceTree = "<group>";
+		};
+		694FAC081E7A724A0045ED58 /* KokyCommentButton */ = {
+			isa = PBXGroup;
+			children = (
+				694FAC0C1E7A74C90045ED58 /* ALCommentBottomView.h */,
+				694FAC0D1E7A74C90045ED58 /* ALCommentBottomView.m */,
+				694FAC091E7A725E0045ED58 /* ALCommentButton.h */,
+				694FAC0A1E7A725E0045ED58 /* ALCommentButton.m */,
+			);
+			path = KokyCommentButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,7 +317,9 @@
 				691A54961E651F5D00065D04 /* AppDelegate.m in Sources */,
 				691A54C71E651F9A00065D04 /* ALMyPageButtonView.m in Sources */,
 				691A54931E651F5D00065D04 /* main.m in Sources */,
+				694FAC0B1E7A725E0045ED58 /* ALCommentButton.m in Sources */,
 				691A54CD1E65202100065D04 /* ALMyPageBarButton.m in Sources */,
+				694FAC0E1E7A74C90045ED58 /* ALCommentBottomView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,6 +555,7 @@
 				691A54BD1E651F5D00065D04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		691A54BE1E651F5D00065D04 /* Build configuration list for PBXNativeTarget "TestDefineButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +564,7 @@
 				691A54C01E651F5D00065D04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		691A54C11E651F5D00065D04 /* Build configuration list for PBXNativeTarget "TestDefineButtonUITests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +573,7 @@
 				691A54C31E651F5D00065D04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

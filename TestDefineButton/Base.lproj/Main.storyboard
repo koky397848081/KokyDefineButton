@@ -29,13 +29,33 @@
                                     <action selector="loadDataRefresh:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rb2-I7-F9D"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="图片按钮：带数字更新：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lnT-Fq-dYD">
+                                <rect key="frame" x="6" y="70" width="369" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="评论点赞按钮：带数字：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QVO-Sb-bZM">
+                                <rect key="frame" x="6" y="594" width="369" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.91764705879999997" green="0.91764705879999997" blue="0.86666666670000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="QVO-Sb-bZM" secondAttribute="bottom" constant="52" id="NLu-at-BbM"/>
+                            <constraint firstItem="lnT-Fq-dYD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="6" id="cRy-Gk-E40"/>
+                            <constraint firstItem="lnT-Fq-dYD" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="lDo-ze-oV4"/>
+                            <constraint firstItem="QVO-Sb-bZM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="6" id="md3-IU-n3B"/>
+                            <constraint firstAttribute="trailing" secondItem="QVO-Sb-bZM" secondAttribute="trailing" id="scN-eX-R7K"/>
+                            <constraint firstAttribute="trailing" secondItem="lnT-Fq-dYD" secondAttribute="trailing" id="xl8-UD-zIo"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-66" y="128"/>
+            <point key="canvasLocation" x="-66.400000000000006" y="127.28635682158921"/>
         </scene>
     </scenes>
 </document>
